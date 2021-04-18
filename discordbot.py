@@ -21,9 +21,12 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.send(f"どうも、{ctx.message.author.name}さん！")
 
-
 @bot.command(name="さようなら")
 async def goodbye(ctx):
     await ctx.send(f"じゃあね、{ctx.message.author.name}さん！")
+   
+@bot.command(name="エリア")
+async def ping(ctx):
+    await ctx.send('https://cdn.discordapp.com/attachments/794486155214979104/806409875578945576/image0.png')
 
 bot.run(token)
