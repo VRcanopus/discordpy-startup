@@ -29,4 +29,8 @@ async def goodbye(ctx):
 async def ping(ctx):
     await ctx.send('https://cdn.discordapp.com/attachments/794486155214979104/806409875578945576/image0.png')
 
+@bot.command(name="ポイント")
+async def ping(ctx):
+    await ctx.send('https://i.imgur.com/mqn2Z1C.jpg')
+
 bot.run(token)
